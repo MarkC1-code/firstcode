@@ -1,0 +1,454 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body {
+    background: rgb(167, 165, 163);
+    color: white;
+}
+
+header {
+    background-color: rgb(177, 179, 175);
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(177, 179, 175);
+    width: 90vw;
+    margin: auto;
+    
+}
+
+.logo {
+    height: 10vh;
+    width: 6vw;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.nameofcompany {
+    padding-top: 1.5rem;
+    color: green;
+}
+.header_div {
+    display: flex;
+    width: 800px;
+}
+.navlist {
+    display: flex;
+    font-size: larger;
+    padding: .5rem;
+    margin: .5rem;
+    justify-content: space-evenly;
+}
+.navlist li {
+    list-style-type: none;
+    margin-right: 1rem;
+}
+
+
+.navanc {
+    text-decoration: none;
+    color: blueviolet;
+    padding: .5rem;
+    transition: ease-in 200ms;
+}
+.navanc:hover {
+    padding: 1rem;
+    color: white;
+    font-size: 25px;
+}
+
+#home {
+    color: green;
+}
+
+#home:hover {
+    padding: 1rem;
+    color: white;
+    font-size: 25px;
+}
+/* --------------------------------------------section----------- */
+.main_container {
+    background: white;
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20vw 50vw 20vw;
+} 
+
+/* --------------------------left aside----------------------- */
+.left_aside {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.left_aside ul li {
+    text-decoration: none;
+    list-style-type: none;
+    color: rgba(74, 55, 180, 0.925);
+    margin-top: .5rem;
+}
+
+.left_anc {
+    text-decoration: none;
+    padding-left: 2rem;
+    transition: ease-in .5s;
+}
+
+.left_aside ul li .left_anc:hover {
+    padding: 1rem;
+    color: blue;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.dashboard {
+    background: rgb(167, 165, 163);
+    width: 10vw;
+    padding: .5rem;
+}
+
+
+.aside_btn {
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    transition: transform ease-out 0.4s;
+    margin-left: 2rem;
+}
+
+.aside_btn:hover {
+    transform: scale(1.098);
+    padding: .8rem;
+
+}
+.aside_lowestdiv {
+    background: linear-gradient(white,rgb(167, 165, 163), black);
+    color: wight;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    box-shadow: inset 0.6rem 0.6rem 0.4rem green;
+    transition: ease 0.5s;
+}
+.aside_lowestdiv:hover{
+    transform: scale(1.05);
+    box-shadow: none;
+
+}
+.left_aside_h3 {
+    text-align: left;
+}
+.leftasidepic {
+    width: 4vw;
+    border-radius: 50%;
+    height: 8vh;
+    
+}
+.car_div {
+    background-color: rgb(167, 165, 163);
+}
+.cars {
+    display: grid;
+    grid-template-columns: 16vw 16vw 16vw;
+    background-color: rgb(167, 165, 163);
+    margin: auto;
+    justify-content: space-evenly;
+
+    width: auto;
+}
+
+.sebitem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.item {
+    background-image: linear-gradient(to right, white, black);
+    border-radius: 10%;
+    text-align: center;
+    height: 30vh;
+    box-shadow: 1rem 1rem 1rem black ;
+    transition: ease 0.5s;
+}
+
+.item:hover{
+    box-shadow: none;
+}
+.imgs {
+    border-radius: 50%;
+    height: 14vh;
+    width: 9vw;
+    padding: 1rem;
+    margin-top: -3rem;
+    
+}
+
+.carh3 {
+    margin-top: .5rem;
+}
+
+.imgs1 {
+    width: 4vw;
+    border-radius: 50%;
+    height: 7vh;
+    
+}
+
+
+.car_btn {
+    background: rgb(25, 145, 25);
+    margin-top: -20rem;
+    padding: .3rem;
+    border-radius: 10%;
+    color: white;
+    border: none;
+    transition: ease-in-out .6s;
+}
+
+.car_btn a {
+    color: white;
+    text-decoration: none;
+    }
+
+.car_btn:hover {
+    padding: .6rem;
+    font-size: 16px;
+    background-color: rgb(2, 90, 2);
+    color: rgb(243, 237, 237);
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 16vw 16vw 16vw;
+    background-color: rgb(167, 165, 163);
+    margin: 1rem 0;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.moreh3 {
+    color: rgb(39, 124, 39);
+    font-weight: bold;
+}
+
+.detail {
+    color: rgb(39, 124, 39)
+}
+
+span {
+    color: red;
+}
+
+.updated {
+    color: rgb(110, 110, 109);
+}
+
+table {
+    background-color: rgb(21, 73, 62);
+    width: 49vw;
+    margin: auto;
+    border-bottom-left-radius: 1rem;
+    padding-bottom: 6.5rem;
+    padding-left: 1rem;
+}
+
+.tableh3 {
+    text-align: center;
+    background-color: rgb(21, 73, 62);
+    width: 49vw;
+    margin: auto;
+    padding-top: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+thead {
+    color: black;
+}
+td {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+    padding-top: .5rem;
+}
+
+td:hover {
+    background: black;
+}
+
+.orders {
+    background: green;
+    color: white;
+    padding: 0rem .2rem;
+    border-radius: 20%;
+}
+
+.orders:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.right_aside {
+    background-color: rgba(136, 89, 75, 0.753);
+    padding-right: 2rem;
+    margin-right: -2rem;
+}
+
+.right_topimg {
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.most_topdiv_right {
+    display: flex;
+}
+
+.hidav {
+    padding-top: 1.5rem;
+}
+
+.hidav_and_account {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account {
+    padding-top: 1.3rem;
+    font-size: 20px;
+}
+
+.balancediv {
+    background-color: rgb(36, 34, 34);
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    border-radius: 1rem;
+    margin: .4rem;
+}
+.acctp {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.moneyh2 {
+    margin-bottom: 1rem;
+    color: green;
+}
+.rightbtn {
+    background-color: red;
+    padding: .2rem;
+    transition: ease-in-out .5s;
+    color: white;
+    text-decoration: none;
+    margin: 0rem;
+}
+
+
+.rightbtn:hover{
+    padding: .5rem;
+    background-color: white;
+    color: black;
+}
+#save {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    padding: .2rem;
+    margin: 0rem;
+    transition: ease-in-out .5s;
+}
+
+#save a{
+    text-decoration: none;
+    color: white;
+}
+
+#save a:hover {
+    color: black;
+}
+
+#save:hover {
+    padding: .5rem;
+    background-color: white;
+}
+
+.cardo {
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.card_and_puchase{
+    display: flex;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.recent_t {
+    background: white;
+    color: black;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    padding: .3rem;
+}
+
+.rect {
+    text-align: center;
+}
+.general {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(228, 226, 223);
+    margin-bottom: .5rem;
+    transition: ease-in-out .1s;
+}
+
+.recent_t a {
+    text-decoration: none;
+}
+
+.general:hover {
+    padding: .2rem;
+    background: rgb(121, 119, 117);
+    color: white;
+}
+
+.time {
+    color: rgb(110, 110, 109);
+}
+
+footer {
+    background: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+.FOOTERUL {
+    display: flex;
+    justify-content: center;
+}
+
+.FOOTERUL li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.footbtn button {
+    padding: .5rem;
+    border-radius: 3rem;
+}
